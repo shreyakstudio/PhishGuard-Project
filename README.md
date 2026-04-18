@@ -88,7 +88,7 @@ The `DetectionService` runs up to 10 heuristic checks. Each rule adds points to 
 | `@` symbol in URL (credential spoofing) | +25 |
 | IP address used instead of domain name | +30 |
 | Phishing keyword found (`login`, `verify`, `paypal`, `amazon`, etc.) | +20 |
-| High-risk TLD (`.tk`, `.xyz`, `.ru`, `.ml`, `.ga`, `.cf`, `.top`, etc.) | +25 |
+| High risk TLD (`.tk`, `.xyz`, `.ru`, `.ml`, `.ga`, `.cf`, `.top`, etc.) | +25 |
 | Hyphen in domain name | +10 |
 | Excessive subdomains (3+ dots) | +20 |
 | URL-encoded or obfuscated characters (`%`, `0x`) | +15 |
